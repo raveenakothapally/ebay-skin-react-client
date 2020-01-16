@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@babel/core": "7.7.4",
+    "@ebay/browserslist-config": "^1.0.1",
+    "@ebay/skin": "^9.5.4",
     "@svgr/webpack": "4.3.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -135,5 +137,13 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "arc-resolver": "^2.0.0",
+    "arc-server": "^2.0.0",
+    "arc-webpack": "^2.0.0",
+    "async_hooks": "^1.0.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0"
   }
 }
